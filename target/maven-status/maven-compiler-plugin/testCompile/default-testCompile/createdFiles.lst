@@ -1,0 +1,8 @@
+com\qualitypointtech\pages\LoginPage.class
+com\qualitypointtech\pages\NewUserPage.class
+com\qualitypointtech\pages\OnlineTimeSheetPage.class
+com\qualitypointtech\testrunners\Runner.class
+com\qualitypointtech\pages\RegisteredPage.class
+com\qualitypointtech\pages\LogoutPage.class
+com\qualitypointtech\pages\EmployeeDetailsPage.class
+com\qualitypointtech\stepdefinations\Steps.class

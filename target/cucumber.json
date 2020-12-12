@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Performing all operations",
+        "description": "",
+        "id": "quality-point-tech-website;performing-all-operations",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 57864734500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch Browser and Navigate to url",
+            "match": {
+              "location": "Steps.launch_chrome_Browser_and_Navigate_to_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9009596900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Entering Username,Password and Click on Login button",
+            "match": {
+              "location": "Steps.entering_Username_Password_and_Click_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118444400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verification of Login Successfull message",
+            "match": {
+              "location": "Steps.verification_of_Login_Successfull_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5585768200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Clicking on employee details and create new user",
+            "match": {
+              "location": "Steps.clicking_on_employee_details_and_create_new_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 146466500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verification of new user page",
+            "match": {
+              "location": "Steps.verification_of_new_user_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9184732400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Entering Employee Details and Click on Save Details",
+            "match": {
+              "location": "Steps.entering_Employee_Details_and_Click_on_Save_Details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 530973800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verification of Employee Details saved sucessfully message",
+            "match": {
+              "location": "Steps.verification_of_Employee_Details_saved_sucessfully_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1688828200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Clicking on Employee Details link",
+            "match": {
+              "location": "Steps.clicking_on_Employee_Details_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2489067700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verification of new user details is displayed in table or not",
+            "match": {
+              "location": "Steps.verification_of_new_user_details_is_displayed_in_table_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2247463000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Clicking on Logout",
+            "match": {
+              "location": "Steps.clicking_on_Logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94945700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verification of logout successfull message",
+            "match": {
+              "location": "Steps.verification_of_logout_successfull_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1315193400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Close the Browser",
+            "match": {
+              "location": "Steps.close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_01"
+          }
+        ]
+      }
+    ],
+    "name": "Quality point tech website",
+    "description": "",
+    "id": "quality-point-tech-website",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/qualitypointtech.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,7 @@
+com\qualitypointtech\baseclasses\LaunchBrowser.class
+com\qualitypointtech\utilities\RandomStringGenerator.class
+com\qualitypointtech\baseclasses\Logs.class
+com\qualitypointtech\baseclasses\ScreenShots.class
+com\qualitypointtech\baseclasses\DriverWait.class
+com\qualitypointtech\utilities\ExcelRead.class
+com\qualitypointtech\utilities\ExcelWrite.class
