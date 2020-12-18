@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: com.qualitypointtech.testrunners.Runner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 121.7 s - in com.qualitypointtech.testrunners.Runner
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 120.293 s <<< FAILURE! - in com.qualitypointtech.testrunners.Runner
+Quality point tech website.Performing all operations  Time elapsed: 115.618 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: DevToolsActivePort file doesn't exist
+Build info: version: '3.141.59', revision: '82b03c358b', time: '2019-04-30T22:04:50'
+System info: host: '2f430834f8ba', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.128-microsoft-standard', java.version: '1.8.0_275'
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x55795acb96a9 <unknown>
+
+Command duration or timeout: 94.66 seconds
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: DevToolsActivePort file doesn't exist
+Build info: version: '3.141.59', revision: '82b03c358b', time: '2019-04-30T22:04:50'
+System info: host: '2f430834f8ba', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.128-microsoft-standard', java.version: '1.8.0_275'
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x55795acb96a9 <unknown>
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-L37L1I5', ip: '192.168.43.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: unknown
+

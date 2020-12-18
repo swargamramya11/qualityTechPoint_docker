@@ -68,12 +68,14 @@ public class LaunchBrowser {
              DesiredCapabilities desiredCapabilities = DesiredCapabilities.chrome();
              chromeOptions = new ChromeOptions();
              desiredCapabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
-             chromeOptions.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
+             chromeOptions.addArguments("--disable-dev-shm-usage"); 
              chromeOptions.addArguments("--no-sandbox");
+             chromeOptions.addArguments("--headless");
              chromeOptions.addArguments("start-maximized");
              chromeOptions.addArguments("--disable-gpu");
              chromeOptions.addArguments("enable-automation");
              chromeOptions.addArguments("--disable-infobars");
+             chromeOptions.setExperimentalOption("useAutomationExtension", false);
              driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), desiredCapabilities);
              break;
          case "GRID_FIREFOX":
